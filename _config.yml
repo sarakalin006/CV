@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Petrova Oleksandra — SysAdmin Engineer | Linux, Azure, Docker, CI/CD
-logo: image 3.png
+logo: /assets/image 3.png
 description: SysAdmin engineer with hands-on experience in Linux and macOS administration, Azure cloud services, automation using Bash, containerization with Docker, CI/CD pipelines (beginner), monitoring with Grafana and ELK. Experienced in integrating Microsoft 365 ecosystem via Graph API and managing virtualized environments (Proxmox, VMware, UTM). Passionate about DevOps, automation, and continuous learning, seeking opportunities to grow under mentorship and contribute to production-ready infrastructure.
 author: Oleksandra P.
 contact:
@@ -9,5 +9,5 @@ contact:
   linkedin: https://www.linkedin.com/in/oleksandra-petrova-213909356/
 location: Kyiv, Ukraine
 show_downloads: true
-google_analytics: 
+google_analytics:
 

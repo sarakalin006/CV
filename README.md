@@ -6,36 +6,22 @@ permalink: /
 
 # Petrova Oleksandra — DevOps / SysAdmin Engineer
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-.readme-wrapper, body { font-family:'Inter', system-ui, sans-serif; }
-.readme-wrapper u { text-decoration-thickness:2px; text-underline-offset:3px; }
-/* Narrow overall line spacing */
-.readme-wrapper p, .readme-wrapper li { line-height:1.25; }
-.contact-card { line-height:1.2; font-size:0.95rem; margin-top:0.4rem; }
-.contact-card ul { list-style:none; padding-left:0; margin:0; }
-.contact-card li { margin:0 0 0.25rem 0; }
-</style>
-<div class="readme-wrapper">
-
 *Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
 
 <div class="contact-card">
 <ul>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align:middle;">
+  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <rect x="2" y="5" width="20" height="14" rx="2" ry="2" fill="none" stroke="#4da3ff" stroke-width="2" />
     <path d="M3 7l9 6 9-6" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </svg> <a href="mailto:pet.85saf@gmail.com">pet.85saf@gmail.com</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align:middle;">
+  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </svg> <a href="tel:+380950231078">+380950231078</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align:middle;">
+  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M12 2a7 7 0 0 1 7 7c0 4.2-3.5 8.7-6.1 11.1a1.2 1.2 0 0 1-1.8 0C8.5 17.7 5 13.2 5 9a7 7 0 0 1 7-7z" fill="none" stroke="#4da3ff" stroke-width="2" />
     <circle cx="12" cy="9" r="2.5" fill="none" stroke="#4da3ff" stroke-width="2" />
   </svg> <a href="https://www.linkedin.com/in/oleksandra-petrova-213909356/">LinkedIn</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" style="vertical-align:middle;">
+  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="12" cy="10" r="3" fill="none" stroke="#4da3ff" stroke-width="2" />
   </svg> Kyiv, Ukraine</li>
@@ -122,5 +108,3 @@ permalink: /
 **Bachelor's Degree in Cybersecurity and Information Protection**  
 *State University of Information and Communication Technologies, 2022–Present*  
 Specialization: 125 — Cybersecurity and Information Protection
-
-</div>
