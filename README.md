@@ -1,4 +1,4 @@
-# Petrova Oleksandra — DevOps / SysAdmin Engineer
+# SysAdmin Engineer CV
 
 *Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
 
@@ -51,7 +51,7 @@
 ---
 
 ### Binotel — SysAdmin Engineer
-*Kyiv, Ukraine (2024–2025 6 months)*
+*Kyiv, Ukraine (2024–2025, 6 months)*
 
 **Linux Infrastructure & Telephony Systems:**  
 - Maintained Linux servers hosting Binotel virtual PBX, ensured high availability of telephony services.  
