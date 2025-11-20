@@ -12,8 +12,9 @@
     <path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M12 2a7 7 0 0 1 7 7c0 4.2-3.5 8.7-6.1 11.1a1.2 1.2 0 0 1-1.8 0C8.5 17.7 5 13.2 5 9a7 7 0 0 1 7-7z" fill="none" stroke="#4da3ff" stroke-width="2" />
-    <circle cx="12" cy="9" r="2.5" fill="none" stroke="#4da3ff" stroke-width="2" />
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="2" y="9" width="4" height="12" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="4" cy="4" r="2" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </svg> <a href="{{ site.linkedin }}">LinkedIn</a></li>
   <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -46,6 +47,7 @@
 **Monitoring & Logging:** Grafana, ELK — dashboards, alerting, log ingestion, metrics visualization.
 
 **Scripting & Automation:** Bash, PowerShell (basic)
+
 ---
 
 ### Binotel — SysAdmin Engineer
@@ -69,7 +71,7 @@
 
 ---
 
-## Technical Skills
+### Technical Skills
 
 **Operating Systems:**  
 - Linux (Ubuntu, CentOS): server provisioning, systemd, networking, user & permission management, troubleshooting, automation  
@@ -94,9 +96,12 @@
 
 **Networking & Security:** TCP/IP, DNS, VPN, SSH, firewall rules, secure access, RBAC
 
-**Soft Skills:** Analytical thinking, troubleshooting, team collaboration, fast learner, mentoring support, effective communication
+### Soft Skills:
+
+ Analytical thinking, troubleshooting, team collaboration, fast learner, mentoring support, effective communication
 
 ---
+
 ## Education
 
 **Bachelor's Degree in Cybersecurity and Information Protection**  
