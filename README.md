@@ -1,8 +1,9 @@
 ---
 layout: default
-title: {{ site.title }}
+title: Petrova Oleksandra — DevOps / SysAdmin Engineer
 permalink: /
 ---
+
 # Petrova Oleksandra — DevOps / SysAdmin Engineer
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
