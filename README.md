@@ -1,3 +1,8 @@
+---
+layout: default
+title: {{ site.title }}
+permalink: /
+---
 # Petrova Oleksandra — DevOps / SysAdmin Engineer
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
