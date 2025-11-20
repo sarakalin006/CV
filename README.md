@@ -2,25 +2,19 @@
 
 *Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
 
-<div class="contact-card">
-<ul>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-    <rect x="2" y="5" width="20" height="14" rx="2" ry="2" fill="none" stroke="#4da3ff" stroke-width="2" />
-    <path d="M3 7l9 6 9-6" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  </svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  </svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-    <rect x="2" y="9" width="4" height="12" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="4" cy="4" r="2" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  </svg> <a href="{{ site.linkedin }}">LinkedIn</a></li>
-  <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="12" cy="10" r="3" fill="none" stroke="#4da3ff" stroke-width="2" />
-  </svg> {{ site.location }}</li>
-</ul>
+<div class="contact-container">
+  <div class="contact-column left">
+    <ul>
+      <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" ry="2" fill="none" stroke="#4da3ff" stroke-width="2" /><path d="M3 7l9 6 9-6" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+    </ul>
+  </div>
+  <div class="contact-column right">
+    <ul>
+      <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="2" y="9" width="4" height="12" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="4" cy="4" r="2" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="{{ site.linkedin }}">LinkedIn</a></li>
+      <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="12" cy="10" r="3" fill="none" stroke="#4da3ff" stroke-width="2" /></svg> {{ site.location }}</li>
+    </ul>
+  </div>
 </div>
 
 ---
