@@ -1,32 +1,3 @@
----
-layout: default
-title: Petrova Oleksandra — DevOps / SysAdmin Engineer
-permalink: /
----
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<script>
-  (function(){
-    var l=document.createElement('link');
-    l.rel='icon';
-    l.type='image/svg+xml';
-    l.href='{{ '/favicon.svg' | relative_url }}';
-    document.head.appendChild(l);
-  })();
-</script>
-<style>
-  body { font-family:'Inter', system-ui, sans-serif; }
-  .wrapper { max-width: 960px; }
-  u { text-decoration-thickness:2px; text-underline-offset:3px; }
-  p, li { line-height:1.25; }
-  .contact-card { line-height:1.2; font-size:0.95rem; margin-top:0.4rem; }
-  .contact-card ul { list-style:none; padding-left:0; margin:0; }
-  .contact-card li { margin:0 0 0.25rem 0; }
-  .contact-card svg { vertical-align:middle; }
-</style>
-
 # Petrova Oleksandra — DevOps / SysAdmin Engineer
 
 *Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
