@@ -2,19 +2,60 @@
 layout: default
 permalink: /
 ---
-<h1>Petrova Oleksandra</h1>
-<p class="intro">SysAdmin engineer with hands-on experience in Linux and macOS administration, Azure cloud services, automation using Bash, containerization with Docker, CI/CD pipelines (beginner), monitoring with Grafana and ELK. Experienced in integrating Microsoft 365 ecosystem via Graph API and managing virtualized environments (Proxmox, VMware, UTM). Passionate about DevOps, automation, and continuous learning, seeking opportunities to grow under mentorship and contribute to production-ready infrastructure.</p>
+<style>
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+  }
+  .contact-column {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-column li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+  .contact-column li:last-child {
+    margin-bottom: 0;
+  }
+  .contact-column svg {
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+  .contact-column.right {
+    text-align: right;
+  }
+  .contact-column.right li {
+    justify-content: flex-end;
+  }
+  .contact-column.right svg {
+    order: 1;
+    margin-left: 8px;
+    margin-right: 0;
+  }
+</style>
+
+# SysAdmin Engineer CV
+
+*Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
 
 <div class="contact-container">
-  <ul class="contact-column">
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2" ry="2" /><path d="M3 7l9 6 9-6" /></svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" /></svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+  <ul class="contact-column left">
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" ry="2" fill="none" stroke="#4da3ff" stroke-width="2" /><path d="M3 7l9 6 9-6" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
   </ul>
-  <ul class="contact-column">
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg> <a href="{{ site.linkedin }}">LinkedIn</a></li>
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" /><circle cx="12" cy="10" r="3" /></svg> {{ site.location }}</li>
+  <ul class="contact-column right">
+    <li><a href="{{ site.linkedin }}">LinkedIn</a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="2" y="9" width="4" height="12" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="4" cy="4" r="2" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></li>
+    <li>{{ site.location }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="12" cy="10" r="3" fill="none" stroke="#4da3ff" stroke-width="2" /></svg></li>
   </ul>
 </div>
+
+---
 
 ## Professional Experience
 
@@ -62,7 +103,7 @@ permalink: /
 
 ---
 
-## Technical Skills
+### Technical Skills
 
 **Operating Systems:**  
 - Linux (Ubuntu, CentOS): server provisioning, systemd, networking, user & permission management, troubleshooting, automation  
