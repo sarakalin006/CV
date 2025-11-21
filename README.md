@@ -3,139 +3,191 @@ layout: default
 permalink: /
 ---
 <style>
-  .contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 1.5rem 0;
-  }
-  .contact-column {
-    list-style: none;
-    padding: 0;
+  /* General Styles */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
     margin: 0;
+    padding: 20px;
   }
-  .contact-column li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
   }
-  .contact-column li:last-child {
-    margin-bottom: 0;
+  h1, h2 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
   }
-  .contact-column svg {
-    margin-right: 8px;
-    flex-shrink: 0;
+  h1 { font-size: 2.5em; }
+  h2 { font-size: 1.8em; margin-top: 40px; }
+  a { color: #007bff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Timeline Styles */
+  .timeline {
+    position: relative;
+    padding: 20px 0;
   }
-  .contact-column.right {
-    text-align: right;
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e0e0e0;
   }
-  .contact-column.right li {
-    justify-content: flex-end;
+  .event {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 50px;
   }
-  .contact-column.right svg {
-    order: 1;
-    margin-left: 8px;
-    margin-right: 0;
+  .event::before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #007bff;
+    border: 2px solid #fff;
+    z-index: 1;
+  }
+  .event-date {
+    font-weight: bold;
+    color: #555;
+  }
+  .event-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  .event-company {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  .event-description ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  .event-description li {
+    margin-bottom: 5px;
+  }
+
+  /* Contact Form Styles */
+  .contact-form {
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  .submit-btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .submit-btn:hover {
+    background: #0056b3;
   }
 </style>
 
-# SysAdmin Engineer CV
+<div class="container">
+  <h1>SysAdmin Engineer CV</h1>
+  <p><em>Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.</em></p>
 
-*Individual eager to grow into a skilled DevOps engineer, transforming complex systems into reliable, automated, and scalable environments. Fast learner, team player, and driven to deliver results from day one.*
+  <h2>Professional Experience</h2>
+  <div class="timeline">
+    <div class="event">
+      <div class="event-date">2025–present (7 months)</div>
+      <div class="event-title">SysAdmin Engineer</div>
+      <div class="event-company">Favbet Tech, Kyiv, Ukraine / Remote</div>
+      <div class="event-description">
+        <ul>
+          <li>Administered Linux (Ubuntu, CentOS) and macOS environments, configured services, and development tooling.</li>
+          <li>Automated Linux server tasks via <strong>systemd</strong> and <strong>Bash</strong>.</li>
+          <li>Managed macOS dev environments: <strong>Homebrew</strong>, SSH keys, VPN, network configuration.</li>
+          <li>Utilized Azure services including Functions, Logic Apps, Storage, and Monitor.</li>
+          <li>Developed Python & Bash automation scripts for Microsoft Graph/Azure API.</li>
+          <li>Managed virtual machines using Proxmox, VMware, and UTM.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="event">
+      <div class="event-date">2024–2025 (6 months)</div>
+      <div class="event-title">SysAdmin Engineer</div>
+      <div class="event-company">Binotel, Kyiv, Ukraine</div>
+      <div class="event-description">
+        <ul>
+          <li>Maintained Linux servers hosting Binotel virtual PBX, ensuring high availability for up to 100M calls/month.</li>
+          <li>Configured SSH access, managed user roles, and implemented system backups.</li>
+          <li>Developed Bash scripts for automated import of call statistics via Binotel API.</li>
+          <li>Implemented Grafana dashboards and alerting for system and telephony metrics.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div class="contact-container">
-  <ul class="contact-column left">
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" ry="2" fill="none" stroke="#4da3ff" stroke-width="2" /><path d="M3 7l9 6 9-6" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 2h6l2 4-2 1c1 3 3 5 6 6l1-2 4 2v6c-9 0-16-7-16-16z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Operating Systems:</strong> Linux (Ubuntu, CentOS), macOS</li>
+    <li><strong>Cloud & Microsoft Ecosystem:</strong> Azure (Functions, Logic Apps, Storage), Microsoft Graph API, Microsoft 365</li>
+    <li><strong>Scripting & Automation:</strong> Bash, Python, PowerShell (basic), Ansible (basic)</li>
+    <li><strong>Version Control:</strong> Git (GitHub, GitLab)</li>
+    <li><strong>Containerization & CI/CD (Basic):</strong> Docker, GitHub Actions, GitLab CI, Jenkins</li>
+    <li><strong>Monitoring & Logging:</strong> Grafana, ELK Stack</li>
+    <li><strong>Virtualization:</strong> Proxmox, VMware, UTM</li>
+    <li><strong>Networking & Security:</strong> TCP/IP, DNS, VPN, SSH, Firewall Rules, RBAC</li>
   </ul>
-  <ul class="contact-column right">
-    <li><a href="{{ site.linkedin }}">LinkedIn</a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="2" y="9" width="4" height="12" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="4" cy="4" r="2" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></li>
-    <li>{{ site.location }} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 0 1 16 0c0 5.25-8 12-8 12s-8-6.75-8-12z" fill="none" stroke="#4da3ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="12" cy="10" r="3" fill="none" stroke="#4da3ff" stroke-width="2" /></svg></li>
-  </ul>
+
+  <h2>Education</h2>
+  <p><strong>Bachelor's Degree in Cybersecurity and Information Protection</strong><br>
+  <em>State University of Information and Communication Technologies, 2022–Present</em></p>
+
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
 </div>
-
----
-
-## Professional Experience
-
-### Favbet Tech — SysAdmin Engineer
-*Kyiv, Ukraine / Remote (2025–present, 7 months)*
-
-**Operating Systems:** Linux (Ubuntu, CentOS), macOS  
-- Administered Linux and macOS environments, configured services, development tooling, and troubleshooting networking/system-level issues.  
-- Automated Linux server tasks via **systemd** and **Bash**.  
-- Managed macOS dev environments: **Homebrew**, SSH keys, VPN, network configuration.
-
-**Microsoft Ecosystem:**  
-- **Azure:** Functions, Logic Apps, Storage (Blob/Files), Monitor & Log Analytics, IAM, AD identities, RBAC.  
-- **Microsoft Graph / Azure API:** Python & Bash automation scripts for Teams, Outlook, SharePoint, Users; OAuth2 and service-to-service flows.  
-- **Microsoft 365:** Teams, SharePoint, Exchange Online, Entra ID; automated tasks via APIs and PowerShell.
-
-**Version Control:** Git (GitHub, GitLab) — branching strategies, repository management, pipeline triggers.
-
-**Virtualization:** Proxmox, VMware, UTM — VM deployment, snapshots, templates, resource management, cloud-init provisioning.
-
-**Monitoring & Logging:** Grafana, ELK — dashboards, alerting, log ingestion, metrics visualization.
-
-**Scripting & Automation:** Bash, PowerShell (basic)
-
----
-
-### Binotel — SysAdmin Engineer
-*Kyiv, Ukraine (2024–2025, 6 months)*
-
-**Linux Infrastructure & Telephony Systems:**  
-- Maintained Linux servers hosting Binotel virtual PBX, ensured high availability of telephony services.  
-- Optimized system load during peak traffic (up to 100M calls/month).
-
-**Security & Access Management:**  
-- Configured SSH access, managed user roles, implemented backups, ensured system resilience.
-
-**Automation & Scripting:**  
-- Developed Bash scripts for automated import of call statistics via **Binotel API**, CRM record creation, and logging.
-
-**Monitoring & Logging:**  
-- Implemented Grafana dashboards and alerting, tracked system metrics and telephony statistics.
-
-**Team Support & Troubleshooting:**  
-- Assisted staff with environment setup, issue resolution, and access management.
-
----
-
-### Technical Skills
-
-**Operating Systems:**  
-- Linux (Ubuntu, CentOS): server provisioning, systemd, networking, user & permission management, troubleshooting, automation  
-- macOS: environment setup, Homebrew, SSH, VPN, network configuration
-
-**Cloud & Microsoft Ecosystem:**  
-- Azure: Functions, Logic Apps, Storage, Monitor & Log Analytics, IAM, AD identities, RBAC  
-- Microsoft Graph / Azure API: Python/Bash automation scripts, Teams/Outlook/SharePoint/Users integration, OAuth2 flows  
-- Microsoft 365: Teams, SharePoint, Exchange Online, Entra ID, PowerShell automation
-
-**Scripting & Automation:** Bash, Python, PowerShell (basic), Ansible (basic)
-
-**Version Control:** Git (GitHub, GitLab) — branching, repo management, CI/CD triggers
-
-**Containerization & CI/CD (Basic):**  
-- Docker: basic builds, docker-compose multi-service environments  
-- CI/CD: basic usage of GitHub Actions, GitLab CI, Jenkins
-
-**Monitoring & Logging:** Grafana, ELK Stack — dashboards, alerts, log ingestion, metrics visualization
-
-**Virtualization:** Proxmox, VMware, UTM — VM deployment, snapshots, templates, resource allocation, cloud-init templates
-
-**Networking & Security:** TCP/IP, DNS, VPN, SSH, firewall rules, secure access, RBAC
-
-### Soft Skills:
-
- Analytical thinking, troubleshooting, team collaboration, fast learner, mentoring support, effective communication
-
----
-
-## Education
-
-**Bachelor's Degree in Cybersecurity and Information Protection**  
-*State University of Information and Communication Technologies, 2022–Present*  
-Specialization: 125 — Cybersecurity and Information Protection
