@@ -24,7 +24,7 @@ permalink: /
     </div>
     <div class="timeline-content">
       <div class="timeline-header">
-        <div class="timeline-title">SysAdmin Engineer at <a href="#">Favbet Tech</a></div>
+        <div class="timeline-title">SysAdmin Engineer at <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A80565651&keywords=favbet%20tech&origin=RICH_QUERY_SUGGESTION&position=0&searchId=3633685c-5f20-4e81-b660-e5c9b8200e67&sid=~Xe&spellCorrectionEnabled=false" target="_blank">Favbet Tech</a></div>
         <div class="timeline-date">2025 – Present</div>
       </div>
       <div class="timeline-tags">
@@ -61,7 +61,7 @@ permalink: /
     </div>
     <div class="timeline-content">
       <div class="timeline-header">
-        <div class="timeline-title">SysAdmin Engineer at <a href="#">Binotel</a></div>
+        <div class="timeline-title">SysAdmin Engineer at <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A2903672&keywords=binotel%20llc.&origin=RICH_QUERY_SUGGESTION&position=0&searchId=6ccf4ea0-8bf8-44b6-b470-6690f785e179&sid=myY&spellCorrectionEnabled=false" target="_blank">Binotel</a></div>
         <div class="timeline-date">2024 – 2025</div>
       </div>
       <div class="timeline-tags">
