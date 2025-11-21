@@ -238,6 +238,45 @@ strong { font-weight: 600; }
   font-weight: 600;
 }
 
+/* Timeline Read More Functionality */
+.timeline-description-short {
+  display: block;
+}
+.timeline-description-full {
+  display: none;
+}
+.timeline-description-full.expanded {
+  display: block;
+}
+.timeline-description-short.collapsed {
+  display: none;
+}
+.read-more-btn {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 8px;
+  padding: 0;
+  text-decoration: underline;
+}
+.read-more-btn:hover {
+  color: var(--accent-color-hover);
+}
+
+/* Header with Arrow */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-header svg {
+  color: var(--secondary-text-color);
+  width: 20px;
+  height: 20px;
+}
+
 /* Theme Toggle */
 .theme-toggle-btn {
   background: var(--card-bg-color);
