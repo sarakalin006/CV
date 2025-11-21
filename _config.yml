@@ -1,12 +1,12 @@
-theme: jekyll-theme-minimal
 title: Petrova Oleksandra — SysAdmin Engineer | Linux, Azure, Docker, CI/CD
-logo: image 3.png
+logo: /assets/images/logo.svg
 description: Passionate about DevOps, automation, and continuous learning, seeking opportunities to grow under mentorship and contribute to production-ready infrastructure.
 author: Oleksandra P.
 email: pet.85saf@gmail.com
 phone: +380950231078
 location: Kyiv, Ukraine
 linkedin: https://www.linkedin.com/in/oleksandra-petrova-213909356/
-show_downloads: true
-google_analytics:
+telegram: YOUR_TELEGRAM_USERNAME
+cv_url: /assets/Petrova_Oleksandra_CV.pdf
+
 
