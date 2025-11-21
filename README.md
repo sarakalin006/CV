@@ -95,7 +95,7 @@ permalink: /
     </div>
     <div class="timeline-content">
       <div class="timeline-header">
-        <div class="timeline-title">Informational Security at <a href="#">State University of ICT</a></div>
+        <div class="timeline-title">Informational Security at <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A105775095&keywords=state%20university%20of%20information%20and%20communication%20technologies&origin=RICH_QUERY_SUGGESTION&position=0&searchId=a5afe7a0-d22d-4117-8532-24742edf362b&sid=VgD&spellCorrectionEnabled=false" target="_blank">State University of ICT</a></div>
         <div class="timeline-date">2022 – Present</div>
       </div>
       <div class="timeline-description">
